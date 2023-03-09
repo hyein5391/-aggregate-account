@@ -46,3 +46,13 @@ where not (id in (select id from tblA) or
 select * from tblAll
 where id  in (select id from tblA) and
           id not in (select id from tblB)
+          
+          
+          
+          
+    
+          
+ ![관계대수식 예제](https://user-images.githubusercontent.com/110071838/223900520-3f824d2f-ec51-4005-a8ae-8e57ddef21ca.jpg)
+
+          
+          
